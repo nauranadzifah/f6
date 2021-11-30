@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentna</title>
+    <style>
+        .bg {
+    background-color: pink;
+}
+
+p {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.div1 {
+    padding: 10px;
+}
+
+.div1 header {
+    height: 30px;
+    text-align: center;
+    background-color: rgb(158, 228, 221);
+    color: white;
+    padding: 15px;
+}
+
+.div2 {
+    display: flex; 
+    padding: 0 15px 0;
+}
+
+Aside {
+    width: 300px;
+    height: 450px;
+    background-color: rgb(61, 180, 176);
+    color: white;
+}
+
+.div2 article {
+    width: 1000px;
+    height: 450px;
+    background-color: rgb(214, 106, 106);
+    color: white;
+    margin-left: 20px;
+}
+
+.peri {
+    flex-grow: 1;
+    width: 140px; 
+    height: 130px; 
+    align-self: flex-end;  
+    margin: 15px;
+    align-self: flex-end;
+}
+
+.div3 {
+    padding: 15px;
+}
+
+.div3 footer {
+    height: 50px;
+    text-align: center;
+    background-color: rgb(136, 224, 216);
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="div1">
+            <header>
+                <p style="margin: 0;">Header</p>
+            </header>
+        </div>
+        <div class="div2">
+            <aside class="Aside">
+                <p>Aside</p>
+            </aside>
+            <article>
+                <h2>Article</h2>
+                <img class="peri" src="f1.jpg" alt="">
+                <img class="peri" src="f1.jpg" alt="">
+                <img class="peri" src="f1.jpg" alt="">
+            </article>
+        </div>
+
+        <div class="div3">
+            <footer>
+                <p style="margin: 0;">Footer</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
